@@ -1,0 +1,16 @@
+pub mod config;
+pub mod machine;
+pub mod machine_list;
+pub mod cpus;
+pub mod accel;
+pub mod smp;
+pub mod numa;
+pub mod add_fd;
+pub mod set;
+pub mod global;
+pub mod boot;
+pub mod memory;
+pub mod language;
+pub mod audio;
+pub mod device;
+pub mod name;

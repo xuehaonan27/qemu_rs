@@ -1,0 +1,9 @@
+{
+    "m": {
+        "size": 512,
+        "slots": 2,
+        "maxmem": 1024
+    },
+    "mem-path": "/mem_backend_storage/mem.1",
+    "mem-prealloc": 128
+}

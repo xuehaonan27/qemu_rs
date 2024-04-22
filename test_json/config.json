@@ -1,0 +1,19 @@
+{
+    "qemu": "qemu-system-x86_64",
+    "machine": {
+        "type": "pc-i440fx-jammy",
+        "accel": ["kvm", "xen", "hax"],
+        "mem-merge": "on"
+    },
+    "accel": {
+        "name": "kvm",
+        "igd-passthru": "off",
+        "kernel-irqchip": "on",
+        "tb-size": 2,
+        "thread": "multi"
+    },
+    "smp": {
+        "cpus": 2,
+        "maxcpus": 4
+    }
+}
